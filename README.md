@@ -1,7 +1,18 @@
 # CS 61B: Data Structures (Spring 2025) - 中文汉化版
 
-> UC Berkeley CS 61B: Data Structures 课程骨架代码的完整中文翻译版本
+> UC Berkeley **CS 61B** Data Structures 课程骨架代码的完整中文翻译版本
 > 原版仓库: [Berkeley-CS61B/skeleton-sp25](https://github.com/Berkeley-CS61B/skeleton-sp25)
+
+<!-- 移动端隐藏的关键词区块，提升 GitHub 搜索排名 -->
+<!--
+cs61b cs 61b berkeley data structures java 中文 chinese
+cs61b homework cs61b lab cs61b project cs61b 2025
+cs61b spring 2025 cs61b skeleton cs61b starter code
+uc berkeley cs61b data structures 中文版
+cs61b 2048 cs61b tetris cs61b percolation cs61b deque
+cs61b bsts cs61b hashmap cs61b red black tree cs61b sorting
+berkeley cs61b 自学 cs61b 中文注释
+-->
 
 ---
 
