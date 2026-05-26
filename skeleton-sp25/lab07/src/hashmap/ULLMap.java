@@ -1,0 +1,157 @@
+package hashmap;
+
+import java.util.Iterator;
+import java.util.Set;
+
+/**
+ * 一种使用链表存储键值对的数据结构。
+ * 任何键在字典中最多出现一次，但值可以出现多次。
+ * 键操作是 get(key)、put(key, value) 和 contains(key) 方法。
+ * 与键关联的值是最后一次使用该键调用 put 时的值。
+ */
+public class ULLMap<K, V>  implements Map61B<K, V> {
+    int size = 0;
+
+    /** 返回对应于 KEY 的值，如果不存在这样的值，则返回 null。 */
+    public V get(K key) {
+        if (list == null) {
+            return null;
+        }
+        Node lookup = list.get(key);
+        if (lookup == null) {
+            return null;
+        }
+        return lookup.val;
+    }
+
+    @Override
+    public int size() {
+        return size;
+    }
+
+    /** 移除此映射中的所有映射。 */
+    @Override
+    public void clear() {
+        size = 0;
+        list = null;
+    }
+
+    /**
+     * 将 KEY 和 VALUE 的键值对插入此映射中，
+     * 替换之前与 KEY 关联的值（如果有的话）。
+     */
+    public void put(K key, V val) {
+        if (list != null) {
+            Node lookup = list.get(key);
+            if (lookup == null) {
+                list = new Node(key, val, list);
+                size = size + 1;
+            } else {
+                lookup.val = val;
+            }
+        } else {
+            list = new Node(key, val, list);
+            size = size + 1;
+        }
+    }
+
+    /**
+     * 当且仅当此字典包含 KEY 作为某个键值对的键时返回 true。
+     */
+    public boolean containsKey(K key) {
+        if (list == null) {
+            return false;
+        }
+        return list.get(key) != null;
+    }
+
+    @Override
+    public Iterator<K> iterator() {
+        return new ULLMapIter();
+    }
+
+    /**
+     * 键和值存储在 Node 对象的链表中。
+     * 此变量存储此链表中的第一个 Node。
+     */
+    private Node list;
+
+    /**
+     * 表示存储字典中键值对的链表中的一个节点。
+     */
+    private class Node {
+
+        /**
+         * 将 KEY 存储为此键值对中的键，VAL 作为值，
+         * NEXT 作为链表中的下一个节点。
+         */
+        Node(K k, V v, Node n) {
+            key = k;
+            val = v;
+            next = n;
+        }
+
+        /**
+         * 返回此键值对链表中键等于 KEY 的 Node，
+         * 如果不存在这样的 Node，则返回 null。
+         */
+        Node get(K k) {
+            if (k != null && k.equals(key)) {
+                return this;
+            }
+            if (next == null) {
+                return null;
+            }
+            return next.get(k);
+        }
+
+        /** 存储此节点在列表中的键值对的键。 */
+        K key;
+        /** 存储此节点在列表中的键值对的值。 */
+        V val;
+        /** 存储链表中的下一个 Node。 */
+        Node next;
+
+    }
+
+    /** 迭代字典键的迭代器。 */
+    private class ULLMapIter implements Iterator<K> {
+
+        /**
+         * 通过将 cur 设置为存储键值对的链表中的第一个节点
+         * 来创建一个新的 ULLMapIter。
+         */
+        ULLMapIter() {
+            cur = list;
+        }
+
+        @Override
+        public boolean hasNext() {
+            return cur != null;
+        }
+
+        @Override
+        public K next() {
+            K ret = cur.key;
+            cur = cur.next;
+            return ret;
+        }
+
+
+        /** 存储当前键值对。 */
+        private Node cur;
+
+    }
+
+    @Override
+    public V remove(K key) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public Set<K> keySet() {
+        throw new UnsupportedOperationException();
+    }
+
+}
+

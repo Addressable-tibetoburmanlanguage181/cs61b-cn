@@ -1,0 +1,17 @@
+# Compiled
+*.class
+*.jar
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# macOS
+.DS_Store
+
+# Compiled output
+out/
+
+# Save files from games
+savefile.txt
