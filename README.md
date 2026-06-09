@@ -374,7 +374,11 @@ cs61b-cn/
 
 ## 免责声明
 
-本项目仅供学习参考，中文翻译为社区贡献，与 UC Berkeley 或 CS 61B 课程团队无关。请遵守课程学术诚信政策，不要在未经允许的情况下公开分享你的实现代码。
+- 本项目**仅翻译了课程公开的骨架代码（skeleton）**，不包含任何答案或解题代码
+- 中文翻译为社区贡献，与 UC Berkeley 或 CS 61B 课程团队无关
+- **请勿在公开仓库（包括 fork 本仓库）中上传你的作业实现代码**，这可能违反课程学术诚信政策
+- 如果你是 Berkeley 在校生，请严格遵守 [CS 61B 学术诚信政策](https://sp25.datastructur.es/materials/guides/academic-misconduct/about-ai.html)
+- 本仓库不设 Issues 和 Pull Requests，请勿在此提交代码
 
 ---
 
